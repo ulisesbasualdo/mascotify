@@ -22,11 +22,11 @@ export interface IDog {
           </p>
           } @if(dog.note){
           <p class="warning">
-            Teléfono de contacto: 1122334455 - <a href="#" target="_blank">Toca para llamar</a>
+            Teléfono de contacto: 1122334455 - <a href="#">Toca para llamar</a>
             <br />
-            WhatsApp: 1122334455  - <a href="#" target="_blank">Toca para enviar WhatsApp</a>
+            WhatsApp: 1122334455  - <a href="#">Toca para enviar WhatsApp</a>
             <br />
-            Mail: PepitoTeExtranio&#64;gmail.com - <a href="#" target="_blank">Toca para enviar mail</a>
+            Mail: PepitoTeExtranio&#64;gmail.com - <a href="#">Toca para enviar mail</a>
             <br />
             En dónde vive {{ dog.name }}?: Abre 
             <a href="https://maps.app.goo.gl/LbEE5aCdh4n1e2kw6" target="_blank">Google Maps</a>
